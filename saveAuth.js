@@ -1,6 +1,6 @@
 const { chromium } = require('@playwright/test');
 
-console.log('✅ Скрипт запущен...');
+console.log('✅ Скрипт запущен... ');
 
 (async () => {
     const browser = await chromium.launch({ headless: false });

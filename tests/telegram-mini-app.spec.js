@@ -12,7 +12,7 @@ test('Открытие Telegram Mini App', async ({ page }) => {
     await expect(botChat).toBeVisible();
     await botChat.click();
 
-    // Находим поле ввода сообщения и вводим "/start"
+    // Находим поле ввода сообщения и вводим "/start "
     const messageInput = page.locator('.input-message-input');
     await messageInput.fill('/start');
     await messageInput.press('Enter');
